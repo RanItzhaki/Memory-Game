@@ -1,4 +1,4 @@
-var lettersArray; // Global variable of the chosen word's kettes.
+var lettersArray; // Global variable of the chosen word's letters.
 
 // Redirects the player to the game page.
 function startGame() {
