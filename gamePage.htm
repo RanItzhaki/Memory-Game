@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<title>Memory Game - Ran Itzhaki</title>
+		<link rel= "stylesheet" href= "memoryGame.css">
+		<script type= "text/javascript" src= "gameMethods.js"></script>
+	</head>
+	<body onload= "showCards()">
+		<center>
+			<br><br>
+			<div class="theGame">
+				<h1 id="chosenName"></h1>
+				<h2 id="subTitle">Look Carefully...</h2>
+			</div>
+			<script type= "text/javascript">
+					printNewLines(6);
+				</script>
+			<div id="allLetters" class="allLetters">
+			</div>
+			<script type= "text/javascript">
+					printNewLines(9);
+			</script>
+			<button class= "optionButton" onclick= "restartGame()">RESTART</button>
+			<button class= "optionButton" onclick= "exitGame()">EXIT</button>
+	    </center>
+	</body>
+</html>
